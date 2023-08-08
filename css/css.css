@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.principal {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(1fr,5fr) 1fr;
+    /* La funcion minmax() establece un minimo y un maximo que tendra una columna o fila (dependiendo del caso)
+    como primer valor se le da el minimo de la caja y como segundo dato se da el máximo */
+}
+.principal-first {
+    background-color: blue;
+}
+.principal-second {
+    background-color: red;
+}
